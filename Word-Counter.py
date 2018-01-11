@@ -13,6 +13,7 @@ else:
 with open(file_name,'r') as f:
 	text = f.read()
 
+#Split on any character or group of characters other than a word
 words = re.split('\W+', text)
 
 print(words)

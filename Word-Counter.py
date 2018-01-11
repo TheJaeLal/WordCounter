@@ -16,6 +16,6 @@ with open(file_name,'r') as f:
 #Split on any character or group of characters other than a word
 words = re.split('\W+', text)
 
-print(words)
+#print(words)
 
 print("Number of words in text =",len(words))
